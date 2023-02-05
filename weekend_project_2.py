@@ -31,5 +31,15 @@ class Parking_Garage:
  #if ticket has not neen paid prompt user for payment
  # once ticket is paid display a message thanking user   
     def leave_garage(self):
-        if self.paid_ticket['paid']:
+        if self.paid_ticket['paid'] = True
+            print("Thank you, have a nice day!")
+            self.paid_ticket['paid'] = False
+        else:
+            print("Payment is now due"):
+            payment_due= input("Please pay 5.00")
+            if take_payment:
+            print("Your payment has been received. Please leave in the next 15 minutes.")
+
             self.parking_Spaces.append(self.paid_ticket['ticket'])
+            self.parking_Spaces.append(self.parking_Spaces)
+
